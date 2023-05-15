@@ -1,0 +1,141 @@
+:root {
+  background-color: white;
+}
+
+* text {
+  color: black;
+}
+
+h1 {
+  background-color: blue;
+}
+
+.green {
+  color: green;
+}
+
+#blue {
+  color: blue;
+}
+
+.box, div + p {
+  background-color: red;
+}
+
+.box > div{
+  background-color: green;
+}
+
+.brown {
+  background-color: brown;
+  color: white;
+}
+
+ul > li {
+  background-color: red;
+}
+
+.header-button + span {
+  background-color: red;
+}
+
+.susid ~ p {
+  background-color: blue;
+}
+
+.salo, #bread {
+  background-color: yellow;
+}
+
+
+.first-task li:first-child {
+  color: white
+}
+
+.second-task ul:first-of-type > li:first-child {
+  color: yellow;
+}
+
+.third-task ul:last-of-type > li:first-child {
+  background-color: yellow;
+}
+
+.four-task li:last-child {
+  background-color: yellow;
+}
+
+.five-task ul:last-of-type > li:last-child {
+  color: white;
+}
+
+.only-child-task div:only-child {
+  color: red;
+}
+
+.seven-task p:first-of-type {
+  background-color: red;
+}
+
+.eight-task p:last-of-type {
+  background-color: red;
+}
+
+.text-wrapper p:only-of-type {
+  background-color: yellow;
+}
+
+
+.lesson-three-task-one a[href] {
+  color: white;
+}
+
+.lesson-three-task-two [value] {
+  color: yellow;
+}
+
+.lesson-three-task-three [value='3'] {
+  background-color: red;
+}
+
+.lesson-three-task-four [class~='primary'] {
+  background-color: blue;
+}
+
+.lesson-three-task-five [class^='secondary'] {
+  background-color: red;
+}
+
+.lesson-three-task-six [class^='b'] {
+  background-color: white;
+  color: green;
+}
+
+.lesson-three-task-seven [class*='on'] {
+  background-color: white;
+  color: green;
+}
+
+.lesson-three-task-eight [class$='s'] {
+  background-color: white;
+  color: green;
+}
+
+.lesson-three-task-nine h2::first-letter {
+  color: red;
+}
+
+.lesson-three-task-ten p::first-line {
+  background-color: yellow;
+}
+
+.lesson-three-task-eleven input::placeholder {
+  background-color: red;
+}
+
+.lesson-three-task-twelve li::before {
+  content: ">";
+}
+
+.lesson-three-task-thirteen li::after {
+  content: ">";
+}
